@@ -67,7 +67,7 @@ a{
     text-align: center;
 }
 
-.error-box
+#error-box
 {
     display: block;
     font-size: larger;
@@ -76,7 +76,7 @@ a{
     color: #DC2626;
 }
 
-.output-box
+#output
 {
     display: block;
     font-size: larger;
