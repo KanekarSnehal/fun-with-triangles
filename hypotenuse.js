@@ -15,7 +15,7 @@ function calculateHypotenuse()
         errorBox.style.display="none";
         output.style.display="block";
         const sumOfSquares =calculateSumOfSquares(side1,side2);
-        const lengthOfHypotenuse=Math.sqrt(sumOfSquares);
+        const lengthOfHypotenuse=Math.sqrt(sumOfSquares).toFixed(2);
         output.innerText="The hypotenuse of the triangle is "+lengthOfHypotenuse;
     }
     else
