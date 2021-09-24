@@ -12,7 +12,7 @@ function calculateArea() {
     {
         errorBox.style.display="none";
         output.style.display="block";
-        const area = calculateFormule();
+        const area = calculateFormule(base,height);
         output.innerText = "Area of triangle is " + area;
     }
     else
